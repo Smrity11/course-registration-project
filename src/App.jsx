@@ -2,6 +2,9 @@
 import Cards from "./components/coursesCards/cards";
 import AddedCourse from "./components/chooseCourse/addedCourse";
 import { useState } from "react";
+import { toast, ToastContainer } from 'react-toastify';
+import 'react-toastify/dist/ReactToastify.css';
+
 
 import './App.css'
 
@@ -16,7 +19,16 @@ const eventHandler = (course) => {
   let count= course.credit
   let price =course.price
   if (isExist) {
-    alert('Course is already selected.');
+    toast.error('Course is already selected.', {
+      position: "top-right",
+      autoClose: 5000,
+      hideProgressBar: false,
+      closeOnClick: true,
+      pauseOnHover: true,
+      draggable: true,
+      progress: undefined,
+      theme: "light",
+      });
   } else {
     selectCourse.forEach( item =>{
       count += item.credit
@@ -24,7 +36,16 @@ const eventHandler = (course) => {
     })
     const totalRemainig =20 - count
     if(count > 20){
-      return alert('you have no credit')
+     toast.error('You have no credit.', {
+      position: "top-right",
+      autoClose: 5000,
+      hideProgressBar: false,
+      closeOnClick: true,
+      pauseOnHover: true,
+      draggable: true,
+      progress: undefined,
+      theme: "dark",
+      });
     }
     else{
       setTotalcredit(count)
@@ -40,7 +61,7 @@ const eventHandler = (course) => {
   return (
     <>
         <h2 className="text-center text-4xl font-bold p-6">Course Registration</h2>
-
+      <ToastContainer />
      <div className="flex flex-wrap md:flex-nowrap px-6 md:px-[50px] gap-8">
      <Cards eventHandler={eventHandler}></Cards>
      <div>
