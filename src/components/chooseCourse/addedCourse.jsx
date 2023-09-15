@@ -1,10 +1,13 @@
 /* eslint-disable react/no-unknown-property */
 
-const AddedCourse = () => {
+
+const AddedCourse = ({selectCourse}) => {
+    
     return (
         <>
         <div >
-           <div class="card bg-base-100 shadow-xl p-9">
+           <div class="card bg-base-100 shadow-xl p-8 lg:w-[280px]">
+           <p>{selectCourse.length}</p>
             <h4>Credit Hour Remaining 7 hr</h4>
             <hr></hr>
             <p className="text-black text-2xl">Course Name</p>
