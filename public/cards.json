@@ -1,83 +1,83 @@
 [
     {
       "id": 1,
-      "image": "./Asset/Rectangle 2-1.png",
+      "image": "https://i.ibb.co/JQnGgrF/Rectangle-2-2.png",
       "title": "Introduction to C Programming",
       "description": "It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout.",
       "price": 18000,
-      "logo_img": "./Asset/Frame(1).png",
+      "logo_img": "https://i.ibb.co/mH99GHQ/Frame-1.png",
       "credit": 1
     },
     {
       "id": 2,
-      "image": "./Asset/Rectangle 2-2.png",
+      "image": "https://i.ibb.co/CbQD4kW/Rectangle-2-3.png",
       "title": "Introduction to Algorithms",
       "description": "It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout.",
       "price": 30000,
-      "logo_img": "./Asset/Frame(1).png",
+      "logo_img": "https://i.ibb.co/mH99GHQ/Frame-1.png",
       "credit": 4
     },
     {
       "id": 3,
-      "image": "./Asset/Rectangle 2-3.png",
+      "image": "https://i.ibb.co/5ctXYs7/Rectangle-2-4.png",
       "title": "Introduction to C++ for DSA",
       "description": "It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout.",
       "price": 20000,
-      "logo_img": "./Asset/Frame(1).png",
+      "logo_img": "https://i.ibb.co/mH99GHQ/Frame-1.png",
       "credit": 3
     },
     {
       "id": 4,
-      "image": "./Asset/Rectangle 2-4.png",
+      "image": "https://i.ibb.co/FDJp24b/Rectangle-3.png",
       "title": "Basic Data Structures",
       "description": "It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout.",
       "price": 45000,
-      "logo_img": "./Asset/Frame(1).png",
+      "logo_img": "https://i.ibb.co/mH99GHQ/Frame-1.png",
       "credit": 8
     },
     {
       "id": 5,
-      "image": "./Asset/Rectangle 2-5.png",
+      "image": "https://i.ibb.co/qync1jL/Rectangle-2.png",
       "title": "Introduction to OOP Python",
       "description": "It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout.",
       "price": 10000,
-      "logo_img": "./Asset/Frame(1).png",
+      "logo_img": "https://i.ibb.co/mH99GHQ/Frame-1.png",
       "credit": 5
     },
     {
       "id": 6,
-      "image": "./Asset/Rectangle 2-6.png",
+      "image": "https://i.ibb.co/CBZ87fd/Rectangle-2-5.png",
       "title": "Software Engineering",
       "description": "It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout.",
       "price": 30000,
-      "logo_img": "./Asset/Frame(1).png",
+      "logo_img": "https://i.ibb.co/mH99GHQ/Frame-1.png",
       "credit": 9
     },
     {
       "id": 7,
-      "image": "./Asset/Rectangle 2.png",
+      "image": "https://i.ibb.co/XXMW0xQ/Rectangle-3-1.png",
       "title": "AWS, Cloud Computing",
       "description": "It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout.",
       "price": 5000,
-      "logo_img": "./Asset/Frame(1).png",
+      "logo_img": "https://i.ibb.co/mH99GHQ/Frame-1.png",
       "credit": 3
     },
     {
       "id": 8,
-      "image": "./Asset/Rectangle 3-1.png",
+      "image": "https://i.ibb.co/khjQxbm/Rectangle-2-1.png",
       "title": "Database (MySQL)",
       "description": "It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout.",
       "price": 25000,
-      "logo_img": "./Asset/Frame(1).png",
+      "logo_img": "https://i.ibb.co/mH99GHQ/Frame-1.png",
       "credit": 1
     },
     {
       "id": 9,
-      "image": "./Asset/Rectangle 3.png",
+      "image": " https://i.ibb.co/7SqX29b/Rectangle-2-6.png",
       "title": "Problem-Solving Part",
       "description": "It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout.",
       "price": 15000,
-      "logo_img":"/Asset/Frame(1).png",
+      "logo_img":"https://i.ibb.co/mH99GHQ/Frame-1.png",
       "credit": 5
     }
   ]
