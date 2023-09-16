@@ -21,10 +21,9 @@ In my assignment, I developed a course registration interface with several key f
 ```
 
 ## Single Course Selection
-``` One of the core features of Course Registration Assignment is ensuring that users can select a course only once. To implement this, I maintained a state variable, possibly an array or object, to keep track of the selected courses. When a user clicks on a course, I checked whether it's already in the selected courses list. If it is, I displayed an alert to notify the user that they've already selected this course. If not, I added it to the list.
 ```
+ One of the core features of Course Registration Assignment is ensuring that users can select a course only once. To implement this, I maintained a state variable, possibly an array or object, to keep track of the selected courses. When a user clicks on a course, I checked whether it's already in the selected courses list. If it is, I displayed an alert to notify the user that they've already selected this course. If not, I added it to the list.
 
-```
   const isExist = selectCourse.find((item) => item.id === course.id);
    if (isExist) {
     toast.error('This Course is already selected.', {
@@ -40,10 +39,9 @@ In my assignment, I developed a course registration interface with several key f
   }
 ```
   ## Displaying Total Price and Hours/Credits
-  ``` To display the total price and hours/credits of selected courses, I continuously calculated these values based on the selected courses' data. Whenever a course was added, I updated the total price and hours/credits, and then updated the UI to reflect these changes.
- ```
+  ```
+   To display the total price and hours/credits of selected courses, I continuously calculated these values based on the selected courses' data. Whenever a course was added, I updated the total price and hours/credits, and then updated the UI to reflect these changes.
 
- ```
   let count= course.credit
   let price =course.price
 
@@ -54,10 +52,9 @@ In my assignment, I developed a course registration interface with several key f
     })
 ```
  ## Managing Available Credits
-``` In the assignment, I mentioned that the site provided users with 20 hours of credit. To manage this, I maintained a state variable that kept track of the remaining credit. When a user selected a course, I deducted the course's hours from the remaining credit.
+``` 
+In the assignment, I mentioned that the site provided users with 20 hours of credit. To manage this, I maintained a state variable that kept track of the remaining credit. When a user selected a course, I deducted the course's hours from the remaining credit.
 
-```
-```
 const totalRemainig =20 - count
     if(count > 20){
      toast.error('You have no credit.', {
