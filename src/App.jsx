@@ -19,7 +19,7 @@ const eventHandler = (course) => {
   let count= course.credit
   let price =course.price
   if (isExist) {
-    toast.error('Course is already selected.', {
+    toast.error('This Course is already selected.', {
       position: "top-right",
       autoClose: 5000,
       hideProgressBar: false,

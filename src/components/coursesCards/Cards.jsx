@@ -14,7 +14,7 @@ const Cards = ({eventHandler}) => {
       
     return (
     <>
-         <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3">
+         <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 just">
          {
             courses.map((course) => <Card key={course.id} course={course} eventHandler={()=>eventHandler(course)}></Card>)
          }
